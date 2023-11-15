@@ -4,8 +4,7 @@ import { FaBrush, FaWineGlassAlt } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import emojiCardGame from "@/public/emojiCardGame.png";
 import hackanews from "@/public/Hackanews.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import btrfootwear from "@/public/btrfootwear.png";
 
 export const links = [
   {
@@ -98,7 +97,7 @@ export const projectsData = [
       "Redux",
       "Sass",
     ],
-    imageUrl: wordanalyticsImg,
+    imageUrl: btrfootwear,
   },
 ] as const;
 
