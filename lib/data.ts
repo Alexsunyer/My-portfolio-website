@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import emojiCardGame from "@/public/emojiCardGame.png";
 import hackanews from "@/public/Hackanews.png";
 import btrfootwear from "@/public/btrfootwear.png";
+import myPortfolio from "@/public/myPortfolio.png";
 
 export const links = [
   {
@@ -70,18 +71,20 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Javascript Memory Card Game",
+    title: "MEMORY CARD GAME",
     description:
-      "I worked on this project with the purpose of learning more about JavaScript and DOM. It is about an interactive card game called Memory",
+      "I worked on this project with the purpose of learning more about JavaScript and DOM. It is about an interactive card game called Memory.",
     tags: ["JavaScript", "CSS", "DOM"],
     imageUrl: emojiCardGame,
+    link: "https://github.com/Alexsunyer/17rt-parejas-emojis",
   },
   {
-    title: "Hack a News",
+    title: "HACK A NEWS",
     description:
       "News web portal created for the final project of the Bootcamp. It is a forum where you can create, edit, comment and rate news.",
     tags: ["MySQL", "Nodejs", "ReactJS", "CSS"],
     imageUrl: hackanews,
+    link: "https://github.com/Alexsunyer/Noticias_Colaborativas",
   },
   {
     title: "BTRFOOTWEAR",
@@ -98,6 +101,21 @@ export const projectsData = [
       "Sass",
     ],
     imageUrl: btrfootwear,
+    link: "https://github.com/Alexsunyer/BTRFOOTWEAR",
+  },
+  {
+    title: "THIS PORTFOLIO WEBSITE",
+    description:
+      "My presentation for the labour market! It is a fresh, animated, modern and responsive portfolio.",
+    tags: [
+      "NextJs 13",
+      "Typescript",
+      "TailwindCSS",
+      "Context API",
+      "Framer-motion",
+    ],
+    imageUrl: myPortfolio,
+    link: "https://github.com/Alexsunyer/My-portfolio-website",
   },
 ] as const;
 
