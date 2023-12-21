@@ -44,8 +44,8 @@ export const experiencesData = [
     date: "2020 - 2022",
   },
   {
-    title: "Full-Stack bootcamp HACKABOSS",
-    location: "Remote",
+    title: "Full-Stack web development bootcamp",
+    location: "HACKABOSS, Remote",
     description:
       "After getting interested in programming, I graduated after 6 months of studying. I immediately found a job as a full-stack developer.",
     icon: React.createElement(LuGraduationCap),
