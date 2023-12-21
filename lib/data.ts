@@ -44,14 +44,6 @@ export const experiencesData = [
     date: "Expected graduation - 2022",
   },
   {
-    title: "Waitress & Catering",
-    location: "Spain, Barcelona",
-    description:
-      "Worked as a waitress and as a local manager in some restaurants and locals of Barcelona.",
-    icon: React.createElement(FaWineGlassAlt),
-    date: "2020 - 2023",
-  },
-  {
     title: "Full-Stack bootcamp HACKABOSS",
     location: "Remote",
     description:
@@ -102,20 +94,6 @@ export const projectsData = [
     ],
     imageUrl: btrfootwear,
     link: "https://github.com/Alexsunyer/BTRFOOTWEAR",
-  },
-  {
-    title: "THIS PORTFOLIO WEBSITE",
-    description:
-      "My presentation for the labour market! It is a fresh, animated, modern and responsive portfolio.",
-    tags: [
-      "NextJs 13",
-      "Typescript",
-      "TailwindCSS",
-      "Context API",
-      "Framer-motion",
-    ],
-    imageUrl: myPortfolio,
-    link: "https://github.com/Alexsunyer/My-portfolio-website",
   },
 ] as const;
 
