@@ -40,8 +40,8 @@ export const experiencesData = [
     location: "La Salle, Barcelona",
     description:
       "Studied an international 'Animation & VFX' degree, that included computer generated imagery, special effects and 3D artwork.",
-    icon: React.createElement(FaBrush),
-    date: "Expected graduation - 2022",
+    icon: React.createElement(LuGraduationCap),
+    date: "2020 - 2022",
   },
   {
     title: "Full-Stack bootcamp HACKABOSS",
