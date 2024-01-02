@@ -63,23 +63,7 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "MEMORY CARD GAME",
-    description:
-      "I worked on this project with the purpose of learning more about JavaScript and DOM. It is about an interactive card game called Memory.",
-    tags: ["JavaScript", "CSS", "DOM"],
-    imageUrl: emojiCardGame,
-    link: "https://github.com/Alexsunyer/17rt-parejas-emojis",
-  },
-  {
-    title: "HACK A NEWS",
-    description:
-      "News web portal created for the final project of the Bootcamp. Users can edit their profile and create, edit, comment and rate news.",
-    tags: ["SQL", "Node.js", "React", "CSS"],
-    imageUrl: hackanews,
-    link: "https://github.com/Alexsunyer/Noticias_Colaborativas",
-  },
-  {
-    title: "BTRFOOTWEAR",
+    title: "FOOTWEAR ECOMMERCE",
     description:
       "Foot wear ecommerce made with Postgres, ReactJS and Typescript. I used Sequelize, Redux and Sass too.",
     tags: [
@@ -93,6 +77,22 @@ export const projectsData = [
     ],
     imageUrl: btrfootwear,
     link: "https://github.com/Alexsunyer/BTRFOOTWEAR",
+  },
+  {
+    title: "NEWS PORTAL",
+    description:
+      "News web portal created for the final project of the Bootcamp. Users can edit their profile and create, edit, comment and rate news.",
+    tags: ["SQL", "Node.js", "React", "CSS"],
+    imageUrl: hackanews,
+    link: "https://github.com/Alexsunyer/Noticias_Colaborativas",
+  },
+  {
+    title: "MEMORY CARD GAME",
+    description:
+      "I worked on this project with the purpose of learning more about JavaScript and DOM. It is about an interactive card game called Memory.",
+    tags: ["JavaScript", "CSS", "DOM"],
+    imageUrl: emojiCardGame,
+    link: "https://github.com/Alexsunyer/17rt-parejas-emojis",
   },
 ] as const;
 
